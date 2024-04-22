@@ -1,0 +1,8 @@
+version: "3"
+
+tasks:
+  build:
+    env:
+      KO_DOCKER_REPO: "ghcr.io/gnuletik/karpenter-provider-aws"
+    cmds:
+      - make image
